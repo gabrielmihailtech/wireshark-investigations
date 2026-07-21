@@ -1,16 +1,24 @@
 # Wireshark Investigations
 
-This repository contains practical Wireshark investigations performed as part of my SOC Analyst and DFIR training journey.
+A collection of hands-on Wireshark investigations focused on SOC analysis, DFIR, malware traffic analysis, DNS investigations, HTTP analysis, and incident response.
 
-## Skills Practiced
+## Skills Covered
 
-- DNS Analysis
-- HTTP Analysis
 - Network Traffic Analysis
+- DNS Investigation
+- HTTP Analysis
 - Malware Traffic Analysis
 - Endpoint Identification
 - IOC Discovery
 - Kerberos Analysis
-- Packet Investigation
+- Incident Investigation
 - Wireshark Filtering
 
+## Repository Structure
+
+Each investigation is stored in its own directory and contains:
+- Investigation summary
+- Methodology
+- Findings
+- Indicators of Compromise (IOCs)
+- Conclusion
