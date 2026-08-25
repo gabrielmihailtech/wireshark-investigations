@@ -28,4 +28,7 @@ Each investigation is stored in its own directory and contains:
 - Wireshark
 - VirusTotal
 - Windows Event Viewer
-  
+
+## Number of Investigations
+
+Conducted 10+ security investigations.
