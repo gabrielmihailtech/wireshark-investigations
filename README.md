@@ -22,3 +22,10 @@ Each investigation is stored in its own directory and contains:
 - Findings
 - Indicators of Compromise (IOCs)
 - Conclusion
+
+## Tools Used
+
+- Wireshark
+- VirusTotal
+- Windows Event Viewer
+  
