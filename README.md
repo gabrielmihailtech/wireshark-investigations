@@ -31,4 +31,4 @@ Each investigation is stored in its own directory and contains:
 
 ## Number of Investigations
 
-Conducted 10+ security investigations.
+Conducted 20+ hands-on network traffic and security investigations using Wireshark.
