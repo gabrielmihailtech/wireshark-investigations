@@ -28,6 +28,8 @@ No username was identified from the traffic examined.
 
 Wireshark's **Statistics → Endpoints** showed `10.12.19.101` as the most active internal IP address, with 4,367 packets.
 
+<img width="1269" height="825" alt="image" src="https://github.com/user-attachments/assets/58d0d420-53cc-4645-a712-2ac49033e615" />
+<img width="1517" height="878" alt="image" src="https://github.com/user-attachments/assets/c9d3e0bc-9a40-489e-931d-e470201bfe7a" />
 
 
 **Statistics → Conversations** showed substantial communication between this workstation and `45.11.180.154`, followed by notable traffic involving `185.193.143.86` and `47.241.19.44`.
@@ -38,6 +40,7 @@ Packet counts and byte volumes helped select traffic for closer inspection; they
 
 The workstation queried `fersite24.xyz`, which resolved to `47.241.19.44`. A subsequent TLS connection to that IP presented `fersite24.xyz` in the Server Name Indication (SNI) field. 
 Application data was exchanged, but its contents were encrypted in the capture.
+<img width="1912" height="886" alt="image" src="https://github.com/user-attachments/assets/c4cc2f34-acff-4014-859a-6c9bd6928e41" />
 
 The workstation also queried `metadatings.top`, which resolved to `185.193.143.86`.
 
@@ -47,6 +50,7 @@ At approximately 04:04:39 on 19 December 2020, `10.12.19.101` sent an HTTP GET r
 
 The server responded with `HTTP/1.1 200 OK` and declared the content type as `text/html`. The response body appeared to contain encoded text.
 Although the requested name ends in `.avi`, that extension alone does not establish that the response was a video file.
+<img width="1861" height="884" alt="image" src="https://github.com/user-attachments/assets/ee8c063e-4bfa-419e-969c-1d56944c3339" />
 
 ### 4. RAR Archive Requests
 
@@ -58,6 +62,7 @@ The workstation requested four RAR archives from `45.11.180.154` over HTTP. Each
 | 04:15:07 | `GET /vnc64.rar` | `45.11.180.154` |
 | 04:25:06 | `GET /gr32.rar` | `45.11.180.154` |
 | 04:25:08 | `GET /gr64.rar` | `45.11.180.154` |
+<img width="1527" height="961" alt="image" src="https://github.com/user-attachments/assets/aa5830dc-d43a-4a36-b781-92d0deccb599" />
 
 The workstation also requested a `client.rar` resource from `176.10.118.191` at approximately 04:20:06. The server returned `200 OK` with the content type `application/x-rar-compressed`.
 
